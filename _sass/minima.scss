@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+// Define defaults for each variable.
+$base-font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif; // Victor2code
+$base-font-size:   16px !default;
+$base-font-weight: 400 !default;
+$small-font-size:  $base-font-size * 0.875 !default;
+$base-line-height: 1.5 !default;
+
+$spacing-unit:     30px !default;
+
+$text-color:       #34415e !default; // Victor2code #4b6a88
+$background-color: rgb(219,238,221) !default; // Victor2code
+$brand-color:      #2a7ae2 !default;
+
+$grey-color:       #828282 !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color-dark:  darken($grey-color, 25%) !default;
+$orange-color:     #f66a0a !default;
+$table-text-align: left !default;
+
+// Width of the content area
+$content-width:    900px !default;
+
+$on-palm:          600px !default;
+$on-laptop:        800px !default;
+
+$on-medium:        $on-palm !default;
+$on-large:         $on-laptop !default;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//   .wrapper {
+//     padding-right: $spacing-unit / 2;
+//     padding-left: $spacing-unit / 2;
+//   }
+// }
+// Notice the following mixin uses max-width, in a deprecated, desktop-first
+// approach, whereas media queries used elsewhere now use min-width.
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
+
+// below are parameters set by Victor2code
+$header-height: 40px;
+$padding-small: 5px;
+$padding-medium: 10px;
+$padding-big: 15px;
+$padding-huge: 20px;
+$border-color: #708090;
+
+@mixin flex-h-sbt{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flex-h-end{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@mixin red-link{
+  a{
+    color: #b11030;
+    text-decoration: none;
+
+    &:hover{
+      color: #800000;
+      text-decoration: underline;
+    }
+
+    &:visited{
+      color: #b11030;
+      text-decoration: none;
+    }
+  }
+}
+
+@mixin grey-link{
+  a{
+    color: #708090;
+    text-decoration: none;
+
+    &:hover{
+      color: #545454;
+      text-decoration: underline;
+    }
+
+    &:visited{
+      color: #708090;
+      text-decoration: none;
+    }
+  }
+}
+
+// Import partials.
+@import
+  "minima/base",
+  "minima/layout",
+  "minima/syntax-highlighting"
+;
