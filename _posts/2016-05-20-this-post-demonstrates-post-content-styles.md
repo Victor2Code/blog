@@ -5,6 +5,7 @@ last-modified: 2019-07-02 17:33:00 +0800
 categories: junk
 author: "Bart Simpson"
 meta: "Springfield"
+comments: true
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
