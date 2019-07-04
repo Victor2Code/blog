@@ -54,7 +54,6 @@ $padding-medium: 10px;
 $padding-big: 15px;
 $padding-huge: 20px;
 $border-color: #708090;
-$baseurl: "{{ site.baseurl }}";
 
 @mixin flex-h-sbt{
   display: flex;
