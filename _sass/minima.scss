@@ -62,6 +62,13 @@ $border-color: #708090;
   align-items: center;
 }
 
+@mixin flex-v-sbt{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 @mixin flex-h-end{
   display: flex;
   flex-direction: row;

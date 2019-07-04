@@ -14,6 +14,11 @@
   @include flex-h-sbt;
   @include red-link;
 }
+@include media-query($on-large){
+  .site-header{
+    @include flex-v-sbt;
+  }
+}
 
 .site-title {
   @include relative-font-size(1.625);
