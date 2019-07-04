@@ -17,8 +17,8 @@ dl, dd, ol, ul, figure {
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
-  background-color: $background-color;
-  #background: url(/images/sg.jpg) no-repeat center center fixed;
+  #background-color: $background-color;
+  background: url(/images/forest.jpg) no-repeat center center fixed;
   #opacity: 0.8;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -159,7 +159,8 @@ pre {
  * Wrapper
  */
 .wrapper {
-  background-color: rgb(185, 212, 188);
+  background-color: $background-color;
+  opacity: 0.8;
   max-width:  $content-width;
   width: 55%;
   height: 100%;

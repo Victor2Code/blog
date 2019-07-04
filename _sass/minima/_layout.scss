@@ -2,8 +2,8 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $border-color;
-  border-bottom: 1px solid $border-color;
+  #border-top: 1px solid $border-color;
+  #border-bottom: 1px solid $border-color;
   height: $header-height;
   z-index: 1;
 
@@ -11,6 +11,7 @@
   position: fixed;
   width: 100%;
   background-color: $background-color;
+  opacity: 0.5;
   padding-left: $padding-small;
   @include flex-h-sbt;
   @include red-link;
