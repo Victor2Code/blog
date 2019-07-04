@@ -18,7 +18,7 @@ body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
   #background-color: $background-color;
-  background: url(/images/forest.jpg) no-repeat center center fixed;
+  background: url($baseurl+"/images/forest.jpg") no-repeat center center fixed;
   #opacity: 0.8;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
