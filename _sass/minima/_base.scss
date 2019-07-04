@@ -9,6 +9,10 @@ dl, dd, ol, ul, figure {
 
 }
 
+html, body{
+
+  height: 100%;
+}
 
 
 /**
@@ -50,6 +54,7 @@ ul, ol, dl, figure,
  */
 main {
   display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+  height: 100%;
 }
 
 
@@ -163,7 +168,7 @@ pre {
   opacity: 0.8;
   max-width:  $content-width;
   width: 55%;
-  height: 100%;
+  min-height: 100%;
   margin-right: auto;
   margin-left: auto;
   padding-right: $spacing-unit / 2;
@@ -179,7 +184,7 @@ pre {
   }
 
   @include media-query($on-large){
-  width: 100%;
+  width: 90%;
 }
 }
 
