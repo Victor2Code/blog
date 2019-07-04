@@ -99,6 +99,26 @@
 
   h2 {
     @include relative-font-size(1.75);
+    margin-top: $spacing-unit;
+    text-align: center;
+    &::after{
+      content: "";
+      border: 1px $border-color solid;
+      width: 10%;
+      display: inline-block;
+      position: relative;
+      top: -6px;
+      left: 10px;
+    }
+    &::before{
+      content: "";
+      border: 1px $border-color solid;
+      width: 10%;
+      display: inline-block;
+      position: relative;
+      top: -6px;
+      right: 10px;
+    }
 
     @media screen and (min-width: $on-large) {
       @include relative-font-size(2);
