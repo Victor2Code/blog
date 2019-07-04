@@ -15,7 +15,7 @@ The first step is to let Google know you are the owner of a site, which is ident
 
 * Select `URL prefix` as your property type, and input your website address, e.g. `https://victor2code.github.io/blog/`  
 
-  ![select property type](/images/select_property_type.png)
+  ![select property type]({{ "/images/select_property_type.png" | relative_url }})
 
   The address you put here should be the root folder of your website, which is the place your `index.html` resides. If you have multiple sites under your github pages, you can register one property for each of them.
 
@@ -47,7 +47,7 @@ The first step is to let Google know you are the owner of a site, which is ident
 
   * Click **verify** button, and you are done with it. It may take few minutes for the meta data to take effect, so be a little patient.
 
-  ![owner verification success](/images/verify_success.png)
+  ![owner verification success]({{ "/images/verify_success.png" | relative_url }})
 
   * It may take hours to few days until you can see the performance about your website in the console
 
