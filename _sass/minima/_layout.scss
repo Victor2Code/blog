@@ -5,6 +5,7 @@
   border-top: 5px solid $border-color;
   border-bottom: 1px solid $border-color;
   height: $header-height;
+  z-index: 1;
 
   // header bar positioning
   position: fixed;
