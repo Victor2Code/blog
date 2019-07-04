@@ -176,6 +176,10 @@ pre {
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
   }
+
+@include media-query($on-large){
+  width: 100%;
+}
 }
 
 
