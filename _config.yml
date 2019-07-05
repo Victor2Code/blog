@@ -2,9 +2,8 @@ title: Victor's Playground
 author: Victor Fu
 email: fhx07042019@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Victor is a DevOps guy based in Singapore, and a life-long learner as well.
+  FRONT-END, BACK-END, PYTHON, DEVOPS, LINUX, NETWORK and a lot more...
 
 show_excerpts: true # set to true to show excerpts on the homepage
 

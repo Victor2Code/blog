@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Make your Jekyll Github Pages appear on Google search result
+title: Make your Jekyll Github Pages appear on Google search result (2 steps)
 tags: Jekyll
 comments: true
-last-modified: 2019-07-04 11:23:00 +0800
+last-modified: 2019-07-06 00:47:00 +0800
 ---
 
 There is no point to make a website if it can not be indexed on Google, so lets take a look at how to make your site and pages appear on Google search result.
@@ -54,6 +54,10 @@ The first step is to let Google know you are the owner of a site, which is ident
 
 
 ## Site Map
+Okay, Google is aware of the existence of your website now. Next, you need to tell Google what your website hierarchy is, which is achieved by a file called **sitemap**.
+
+**Sitemap** stores the structure of your site, like how many pages are there, and what is the url for each of them, something like that.
+
 Github Pages can generate a site map automatically for your site, just simply follow this official [instruction](https://github.com/jekyll/jekyll-sitemap):
 
 * add `gem: jekyll-sitemap` to `gemfile` file
@@ -62,11 +66,15 @@ Github Pages can generate a site map automatically for your site, just simply fo
 
 * run `bundle exec jekyll serve`
 
-* a file named `sitemap.xml` will generate automatically at the root folder of your site
-
-
+* a file named `sitemap.xml` will generate automatically at the root folder of your site, such as `https://victor2code.github.io/blog/sitemap.xml` for this site. You shall be able to check it out via this url in browser
 
 Then, you can submit the address of your sitemap file to Google Search Engine, prompting the Googlebot to analyze your site for indexing.
 
+For my case, I could not search my site via site name until **2 days** after I submit the sitemap file. It takes some patience.
+
 ## URL Inspection
-Even you have submitted your sitemap to Google, certain pages just can not be indexed on Google search result. You can submit the url of the page to this URL Inspection tool, and Google will show you why your page can not be indexed, and how to solve the problem.
+Yes! If everything goes smoothly, you site can be found via Google now, that is exciting.
+
+But even you have submitted your sitemap to Google, certain pages just can not be indexed on Google search result. You can submit the url of the page to this URL Inspection tool, and Google will show you why your page can not be indexed, and how to solve the problem.
+
+Follow the tips from Google and you shall be all covered.
