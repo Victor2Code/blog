@@ -33,6 +33,10 @@ body {
   #display: flex;
   height: 100%;
   #flex-direction: column;
+
+  @include media-query($on-large){
+    background-repeat: round;
+  }
 }
 
 
