@@ -181,14 +181,14 @@
 /**
  * Table of Content
  */
- #markdown-toc{
-   position: fixed;
-   left: 80%;
-   top: $header-height+5px;
+ markdown-toc{
+   //position: fixed;
+   //left: 80%;
+   //top: $header-height+5px;
    font-size: 12px;
-   width: 15%;
-   border-left: 1px $border-color solid;
-   padding-left: $padding-huge;
-   padding-top: $padding-big;
+   //width: 15%;
+   //border-left: 1px $border-color solid;
+   //padding-left: $padding-huge;
+   //padding-top: $padding-big;
    @include grey-link;
  }
