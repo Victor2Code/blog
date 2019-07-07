@@ -18,7 +18,7 @@
 }
 @include media-query($on-large){
   .site-header{
-    @include flex-v-sbt;
+    @include flex-h-sbt;
   }
 }
 
@@ -28,7 +28,9 @@
   letter-spacing: 5px;
 
   @include media-query($on-palm) {
+    font-weight: 600;
     padding-right: 45px;
+    letter-spacing: 1px;
   }
 }
 
