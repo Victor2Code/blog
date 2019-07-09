@@ -70,7 +70,7 @@ Github Pages can generate a site map automatically for your site, just simply fo
 
 Then, you can submit the address of your sitemap file to Google Search Engine, prompting the Googlebot to analyze your site for indexing.
 
-For my case, I could not search my site via site name until **2 days** after I submit the sitemap file. It takes some patience.
+For my case, I could not search my site via site name until **2 days** after I submit the sitemap file. And it is **5 dyas** for posts to be searchable via title name. It takes some patience.
 
 ## URL Inspection
 Yes! If everything goes smoothly, you site can be found via Google now, that is exciting.

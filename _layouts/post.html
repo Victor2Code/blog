@@ -35,6 +35,7 @@ layout: default
   <div class="post-content e-content" itemprop="articleBody">
     <nav>
     {{ content }}
+    {% include disclaimer.html %}
   </div>
   {% if page.comments %}
     {%- include disqus_comments.html -%}
